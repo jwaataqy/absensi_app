@@ -1,0 +1,30 @@
+name: absen_app_application
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^4.14.0
+  cupertino_icons: ^1.0.2
+  file_picker: ^7.0.0
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  firebase_storage: ^11.0.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+  get: 4.6.5
+  google_sign_in: ^6.1.6
+  pinput: ^4.0.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
